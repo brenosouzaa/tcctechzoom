@@ -216,20 +216,16 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'TechZoom',
       'es': '',
     },
-    'z62llhpv': {
-      'en': 'Ajuda',
-      'es': '',
-    },
     's6gy0b54': {
       'en': 'Pesquisa',
       'es': '',
     },
     'dqy3w7mr': {
-      'en': 'Lançamentos',
+      'en': 'lançamentos',
       'es': '',
     },
     '5ekbyo5a': {
-      'en': 'Lançamentos',
+      'en': 'Para o seu PC',
       'es': '',
     },
     '3zosv0q4': {
@@ -241,7 +237,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '',
     },
     'ghovaprz': {
-      'en': 'Notbook',
+      'en': 'Notebook',
       'es': '',
     },
     'vbiuku8u': {
@@ -320,10 +316,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'apaogspq': {
       'en': '0%',
-      'es': '',
-    },
-    'if2ww7ln': {
-      'en': 'Avaliar',
       'es': '',
     },
     'sulv01tn': {

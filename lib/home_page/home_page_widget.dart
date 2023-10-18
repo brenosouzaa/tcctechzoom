@@ -68,27 +68,6 @@ class _HomePageWidgetState extends State<HomePageWidget>
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBtnText,
-        floatingActionButton: FloatingActionButton.extended(
-          onPressed: () {
-            print('FloatingActionButton pressed ...');
-          },
-          backgroundColor: Color(0xFF551A8B),
-          icon: Icon(
-            Icons.minimize_sharp,
-            color: FlutterFlowTheme.of(context).primaryBtnText,
-          ),
-          elevation: 10.0,
-          label: Text(
-            FFLocalizations.of(context).getText(
-              'z62llhpv' /* Ajuda */,
-            ),
-            style: FlutterFlowTheme.of(context).bodyMedium.override(
-                  fontFamily: 'Poppins',
-                  fontSize: 20.0,
-                  fontWeight: FontWeight.w800,
-                ),
-          ),
-        ),
         appBar: AppBar(
           backgroundColor: Color(0xFF551A8B),
           automaticallyImplyLeading: false,
@@ -288,7 +267,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                               5.0, 0.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              'dqy3w7mr' /* Lançamentos */,
+                              'dqy3w7mr' /* lançamentos */,
                             ),
                             style:
                                 FlutterFlowTheme.of(context).bodySmall.override(
@@ -569,7 +548,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                               5.0, 0.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              '5ekbyo5a' /* Lançamentos */,
+                              '5ekbyo5a' /* Para o seu PC */,
                             ),
                             style:
                                 FlutterFlowTheme.of(context).bodySmall.override(
@@ -953,7 +932,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           ),
                           Tab(
                             text: FFLocalizations.of(context).getText(
-                              'ghovaprz' /* Notbook */,
+                              'ghovaprz' /* Notebook */,
                             ),
                           ),
                           Tab(
